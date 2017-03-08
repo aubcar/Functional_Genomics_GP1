@@ -14,7 +14,7 @@ Resources: Alabama Super Computer, Huntsville Alabama
 Analyse Methyl DIPSEQ data from Anolis measung thermal resistance differences. 
 
 ####Samples:   
-10 Anolis RNA seq data sets provided by Dr.Schwartz
+Female cuban brown anoles, Anolis sagrei, were collected from their field sites in Florida (islands in the Tomoka River in Florida, an intertidal estuary with high salinity fluctuations) and brought them back to the lab, along with soil samples from each of the islands. The “arid” islands have more shell-based soil compare to the soil on the “wet” islands. The lizards were randomly assigned to cages and mated. Throughout the spring/summer these lizards produce one egg every few days and the eggs were continuously rolled into the experiment. Eggs from a particular female were distributed across four treatments: Dry soil (-600 kpa), Dry shell (-600kpa), Wet soil (-30 kpa), Wet shell (-30 kpa).
 
 reference= Anolis_carolinensis_genome.fa
 
