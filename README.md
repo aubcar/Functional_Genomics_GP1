@@ -107,7 +107,13 @@ Step 5 - Build Bam index with picard
 java -Xms2g -Xmx14g -jar /opt/asn/apps/picard_1.79/picard-tools-1.79/BuildBamIndex.jar I= Anolis_carolinensis_genome.fa O= Anolis_carolinensis_genome.fa.fai
 ```
 
-Step 6 - Marking Duplicates with Picard tools 
+Step 6 - Build dict with picard 
+
+```Shell
+java -jar /opt/asn/apps/picard_1.79/picard-tools-1.79/CreateSequenceDictionary.jar  R= Anolis_carolinensis_genome.fa  O= Anolis_carolinensis_genome.dict
+```
+
+Step 7 - Marking Duplicates with Picard tools 
 ```Shell
 or x in {1..12} #125 comes from wc -l of Table.txt
 do
@@ -121,7 +127,8 @@ do
 done
 ```
 
-Step 7 - Run stats on the output with Samtools
+
+Step 8 - Run stats on the output with Samtools
 
 ```Shell
 ls | grep ".bam$" > list.txt
