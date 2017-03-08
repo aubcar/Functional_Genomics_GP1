@@ -8,13 +8,19 @@ Code: Chase Rushton , Auburn University , Stephen Gardner , Auburn University
 
 Resources: Alabama Super Computer, Huntsville Alabama 
 
- 
+Project:The epigenetic signature of developmentally induced desiccation resistance in a lizard.
+Tonia Schwartz, Corey Cates, Nicole Riddle?, David Allison, Dan Warner
+
+
 
 ###Goals
 Analyse Methyl DIPSEQ data from Anolis measung thermal resistance differences. 
 
 ####Samples:   
 Female cuban brown anoles, Anolis sagrei, were collected from their field sites in Florida (islands in the Tomoka River in Florida, an intertidal estuary with high salinity fluctuations) and brought them back to the lab, along with soil samples from each of the islands. The “arid” islands have more shell-based soil compare to the soil on the “wet” islands. The lizards were randomly assigned to cages and mated. Throughout the spring/summer these lizards produce one egg every few days and the eggs were continuously rolled into the experiment. Eggs from a particular female were distributed across four treatments: Dry soil (-600 kpa), Dry shell (-600kpa), Wet soil (-30 kpa), Wet shell (-30 kpa).
+
+We used ten male hatchlings from the wet and dry soil treatments (5 from each treatment: 12-19 days old) that were frozen after their test for desiccation resistance.  The skin on ventral side of torso was removed and minced.  The ventral skin was chosen as this is the location where (these) lizards lose water through evaporation (ref).  DNA was isolated using DNeasy (Qiagen) columns including a DTT treatment during digestion to improve the digestion of the skin tissue, and a RNAse treatment prior to loading on the spin column. 
+DNA from 10 individuals was sent for MeDIP-Seq and Illumina library preparation through EpiGenTek.  MeDIP-Seq uses an antibody to capture DNA fragments containing 5-mC. This technique uses chromatin immunoprecipitation to enrich for regions of the genome that are highly methylated. DNA from two individuals were also used as input controls (Individual 1 and 10) where no antibody was added. The libraries (12 total) were barcoded and sequenced on the Illumina Hi-Seq 2500, for 100 bp Single end sequencing.
 
 reference= Anolis_carolinensis_genome.fa
 
