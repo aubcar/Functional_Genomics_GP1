@@ -9,7 +9,8 @@ Code: Chase Rushton , Auburn University , Stephen Gardner , Auburn University
 Resources: Alabama Super Computer, Huntsville Alabama 
 
 Project:The epigenetic signature of developmentally induced desiccation resistance in a lizard.
-Tonia Schwartz, Corey Cates, Nicole Riddle?, David Allison, Dan Warner
+
+Tonia Schwartz, Corey Cates, Nicole Riddle, David Allison, Dan Warner
 
 
 
