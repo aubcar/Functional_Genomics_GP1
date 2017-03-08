@@ -1,8 +1,11 @@
 # Functional_Genomics_GP1
 #Code used for Auburn University Functional Genomics Spring 2017 class 
 #Contributors 
+
 Data:Dr.Tonia Schwatz, Auburn University
+
 Code: Chase Rushton , Auburn University 
+
 Resources: Alabama Super Computer, Huntsville Alabama 
 
  
