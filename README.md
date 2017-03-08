@@ -19,12 +19,19 @@ Analyse Methyl DIPSEQ data from Anolis measung thermal resistance differences.
 reference= Anolis_carolinensis_genome.fa
 
 ###Programs used
-Picard
-GATK
+
+Picard 1.79
+
+GATK 3.4-46
+
 gnu_parallel/201612222
+
 fastqc/0.10.1
+
 trimmomatic/0.35
+
 bwa/0.7.12
+
 samtools/1.2
 
 ###Step1- Run FastQC to check data quality
