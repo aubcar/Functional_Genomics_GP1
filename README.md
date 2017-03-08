@@ -4,7 +4,7 @@
 
 Data:Dr.Tonia Schwatz, Auburn University
 
-Code: Chase Rushton , Auburn University 
+Code: Chase Rushton , Auburn University , Stephen Gardner , Auburn University 
 
 Resources: Alabama Super Computer, Huntsville Alabama 
 
@@ -15,6 +15,7 @@ Analyse Methyl DIPSEQ data from Anolis measung thermal resistance differences.
 
 ####Samples:   
 10 Anolis RNA seq data sets provided by Dr.Schwartz
+
 reference= Anolis_carolinensis_genome.fa
 
 ###Programs used
