@@ -160,4 +160,17 @@ samtools idxstats ${wd}${i}  > ${input}_Counts.txt
 done
 ```
 
+Step 9 - Average depth 
+```Shell
+ls | grep "depth.txt$" > list.txt
+files=`cat list.txt`
+for i in ${files}
+do
+cat ${i} awk | '{sum+=$3} END {print sum/NR}' > ${i}.avg.depth.txt
+done
+```
+Step 10 - Graphics in R on statistics 
+
+```R
+```
 
