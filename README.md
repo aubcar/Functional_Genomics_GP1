@@ -43,11 +43,15 @@ source /opt/asn/etc/asn-bash-profiles-special/modules.sh">$x.fastqc.sh
 done
 ```
 
-To run
-#IF you don't want to manually input in the queue parameters each time edit your .asc_queue fil
-#emacs .asc_queue
+>To run
+>IF you don't want to manually input in the queue parameters each time edit your .asc_queue fil
+```Shell
 
-#Run this file on the command line to generate each input.fastqc.sh file then  run the following on the command line to submit all 36 at once
+
+emacs .asc_queue
+```
+
+>Run this file on the command line to generate each input.fastqc.sh file then  run the following on the command line to submit all 36 at once
 
 ```Shell
 for x in {1..36}
