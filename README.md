@@ -23,7 +23,15 @@ Female cuban brown anoles, Anolis sagrei, were collected from their field sites 
 We used ten male hatchlings from the wet and dry soil treatments (5 from each treatment: 12-19 days old) that were frozen after their test for desiccation resistance.  The skin on ventral side of torso was removed and minced.  The ventral skin was chosen as this is the location where (these) lizards lose water through evaporation (ref).  DNA was isolated using DNeasy (Qiagen) columns including a DTT treatment during digestion to improve the digestion of the skin tissue, and a RNAse treatment prior to loading on the spin column. 
 DNA from 10 individuals was sent for MeDIP-Seq and Illumina library preparation through EpiGenTek.  MeDIP-Seq uses an antibody to capture DNA fragments containing 5-mC. This technique uses chromatin immunoprecipitation to enrich for regions of the genome that are highly methylated. DNA from two individuals were also used as input controls (Individual 1 and 10) where no antibody was added. The libraries (12 total) were barcoded and sequenced on the Illumina Hi-Seq 2500, for 100 bp Single end sequencing.
 
-reference= Anolis_carolinensis_genome.fa
+#Genomic References
+The Anolis carolinensis genome and annotation
+Assembly
+ftp://ftp.ensembl.org/pub/release-87/fasta/anolis_carolinensis/dna/
+
+Annotation
+ftp://ftp.ensembl.org/pub/release-87/gff3/anolis_carolinensis/
+ftp://ftp.ensembl.org/pub/release-87/gtf/anolis_carolinensis/
+
 
 ###Programs used
 
