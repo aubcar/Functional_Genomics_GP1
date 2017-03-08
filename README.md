@@ -90,7 +90,7 @@ bwa index -p  Anolis_carolinensis_genome -a bwtsw  Anolis_carolinensis.AnoCar2.0
 ```
 Step 4- Mapping with BWA
 ```Shell
-or x in {1..12} #125 comes from wc -l of Table.txt
+or x in {1..12} #12 comes from wc -l of list.txt
 do
         echo "module load bwa/0.7.12">$x.alignment.sh
         echo "module load samtools/1.2">>$x.alignment.sh
@@ -115,7 +115,7 @@ java -jar /opt/asn/apps/picard_1.79/picard-tools-1.79/CreateSequenceDictionary.j
 
 Step 7 - Marking Duplicates with Picard tools 
 ```Shell
-or x in {1..12} #125 comes from wc -l of Table.txt
+or x in {1..12} #12 comes from wc -l of list.txt
 do
         echo "module load picard">$x.dup.sh
 
