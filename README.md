@@ -5,6 +5,7 @@
 Data:Dr.Tonia Schwatz, Auburn University
 
 Code: Chase Rushton , Auburn University , Stephen Gardner , Auburn University 
+Pipeline figure: Randy Klabacka
 
 Resources: Alabama Super Computer, Huntsville Alabama 
 
